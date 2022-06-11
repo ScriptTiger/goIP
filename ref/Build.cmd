@@ -70,7 +70,7 @@ exit /b
 
 if not exist "Release/%GOOS%_%GOARCH%" md "Release/%GOOS%_%GOARCH%"
 
-echo Building %APP%_%GOOS%_%GOARCH%%EXT%...
+echo Building %GOOS%_%GOARCH%/%APP%%EXT%...
 go build -ldflags="-s -w" -o "Release/%GOOS%_%GOARCH%/%APP%%EXT%" %APP%.go %INC%
 
 exit /b
