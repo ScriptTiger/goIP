@@ -921,10 +921,10 @@ func main() {
 			if err != nil {debug(err)}
 		}
 		//Create directory structure as needed
-		os.MkdirAll(filepath.Dir(*fileOut), 644)
+		os.MkdirAll(filepath.Dir(*fileOut), 0644)
 
 		//Initialize CSV
-		csvData, err := os.OpenFile(*fileOut, os.O_CREATE | os.O_WRONLY, 644)
+		csvData, err := os.OpenFile(*fileOut, os.O_CREATE | os.O_WRONLY, 0644)
 		if err != nil {debug(err)}
 		defer csvData.Close()
 		writer = csv.NewWriter(csvData)
