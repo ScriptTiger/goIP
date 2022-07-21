@@ -1,4 +1,4 @@
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/thescripttiger%40gmail.com)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://docs.google.com/forms/d/e/1FAIpQLSfBEe5B_zo69OBk19l3hzvBmz3cOV6ol1ufjh0ER1q3-xd2Rg/viewform)
 
 # goIP
 goIP is a Go package which validates, parses, and formats IPv4 and IPv6 addresses, as well as creates simple, lightweight structures to store and return common information about IPs which are well suited to be used in iteration.
