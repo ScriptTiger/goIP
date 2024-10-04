@@ -5,7 +5,14 @@ goIP is a Go package which validates, parses, and formats IPv4 and IPv6 addresse
 
 To import goIP into your project:  
 `go get github.com/ScriptTiger/goIP`  
-Then just `import "github.com/ScriptTiger/goIP"` and call `goIP.NewIP(<IP>[/<prefix length>])` to get started. Please refer to the reference implementation for more details and ideas on how to integrate goIP into your project.  
+Then just `import "github.com/ScriptTiger/goIP"` and call `goIP.NewIP(<IP>[/<prefix length>])` to get started.
+
+Please refer to the dev package docs and reference implementation for more details and ideas on how to integrate Mixer in G into your project.  
+
+Dev package docs:  
+https://pkg.go.dev/github.com/ScriptTiger/goIP
+
+Reference implementation:  
 https://github.com/ScriptTiger/goIP/tree/main/ref
 
 # Reference Implementation
